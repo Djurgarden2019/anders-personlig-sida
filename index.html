@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anders – Growth manager | Business Reflex</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #1a1a1a; background: #f8fafc; }
+a { color: #0b66c2; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header */
+.header { background: #04284d; color: white; padding: 18px 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.header-inner { max-width: 1100px; margin: 0 auto; padding: 0 24px; display: flex; justify-content: space-between; align-items: center; }
+.logo { font-weight: 700; font-size: 1.3em; color: white; }
+.logo span { color: #00abc1; }
+.nav { display: flex; gap: 22px; align-items: center; flex-wrap: wrap; }
+.nav a { color: #e8eef5; font-size: 0.95em; transition: color 0.2s; }
+.nav a:hover { color: white; }
+.btn-header { background: #0b66c2; color: white !important; padding: 9px 18px; border-radius: 8px; text-decoration: none !important; font-weight: 600; }
+
+/* Content */
+.container { max-width: 860px; margin: 32px auto; padding: 48px 40px; background: white; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.06); }
+.hero-highlight { background: linear-gradient(135deg, #f0f7ff 0%, #e8f4ff 100%); border-left: 5px solid #0b66c2; padding: 28px 32px; margin: 0 0 36px; border-radius: 0 12px 12px 0; }
+h1 { color: #04284d; font-size: 2.4em; margin: 0 0 16px; line-height: 1.2; }
+h2 { color: #04284d; margin-top: 48px; }
+.price { font-size: 1.7em; font-weight: 700; color: #0b66c2; margin: 8px 0 16px; }
+.module { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 16px; padding: 32px; margin: 28px 0; }
+.track { display: flex; gap: 20px; flex-wrap: wrap; margin: 28px 0; }
+.stat { flex: 1; min-width: 140px; text-align: center; background: #f0f7ff; padding: 20px; border-radius: 12px; }
+.stat strong { display: block; font-size: 1.9em; color: #0b66c2; }
+.btn { display: inline-block; background: #0b66c2; color: white; padding: 14px 32px; border-radius: 10px; font-weight: 600; text-decoration: none !important; margin-top: 12px; transition: background 0.2s, transform 0.1s; }
+.btn:hover { background: #0956a8; transform: translateY(-1px); }
+ul { padding-left: 20px; }
+li { margin-bottom: 10px; }
+
+/* Footer */
+.footer { background: #04284d; color: #c5d0de; padding: 48px 24px; margin-top: 20px; }
+.footer-inner { max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
+.footer a { color: #e8eef5; }
+.footer-bottom { text-align: center; margin-top: 24px; font-size: 0.9em; opacity: 0.8; }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="https://businessreflex.se/" class="logo">Business <span>Reflex</span> <small style="font-weight:400;opacity:0.85;">· Anders</small></a>
+    <nav class="nav">
+      <a href="https://businessreflex.se/growth-operating-system/">GOS erbjudandet</a>
+      <a href="https://businessreflex.se/gos-metoden/">GOS metoden</a>
+      <a href="https://businessreflex.se/gos-ai/">GOS-AI</a>
+      <a href="https://businessreflex.se/case/">Kunder</a>
+      <a href="https://businessreflex.se/las-lyssna/">Kunskap</a>
+      <a href="https://businessreflex.se/om-oss/">Om oss</a>
+      <a href="https://businessreflex.se/kontakta-oss/" class="btn-header">Kontakta oss</a>
+    </nav>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- HERO / FÖRSTA SIDAN -->
+  <div style="text-align: center; padding: 48px 20px 32px;">
+    <p style="color: #0b66c2; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin: 0 0 12px; font-size: 0.95em;">Personligt för dig</p>
+    <h1 style="font-size: 2.6em; margin: 0 0 16px; line-height: 1.15;">Hej Anders,<br>välkommen till Business Reflex!</h1>
+    <p style="font-size: 1.25em; color: #444; max-width: 640px; margin: 0 auto 28px; line-height: 1.5;">
+      Här har jag lagt till de tjänster vi pratade om på vårt möte.
+    </p>
+    <a href="#growth-manager" class="btn" style="font-size: 1.05em;">Se ditt förslag</a>
+  </div>
+
+  <div id="growth-manager" style="margin-top: 20px;">
+    <h2 style="font-size: 2em; margin-bottom: 8px;">Growth manager</h2>
+    <p style="font-size: 1.15em; color: #333; margin-bottom: 24px;">
+      En erfaren senior ledare som tar ansvar för er go-to-market-exekvering. 
+      Hen leder de tre looparna (vecka, månad och kvartal) så att strategi och genomförande hålls ihop – oavsett vem som sitter i teamet.
+    </p>
+
+    <div class="hero-highlight" style="text-align: center; padding: 28px;">
+      <p style="margin: 0; font-size: 0.95em; color: #0b66c2; font-weight: 600; letter-spacing: 0.05em;">PRIS</p>
+      <p class="price" style="font-size: 2.2em; margin: 8px 0;">25 000 kr</p>
+      <p style="margin: 0;">En senior ledare med över 20 års erfarenhet säkerställer er GTM-strategi och leder de tre looparna så att exekveringen är fokuserad på era mål.</p>
+    </div>
+  </div>
+
+  <div class="module">
+    <h3>Vad du får</h3>
+    <ul>
+      <li>En senior ledare som leder de tre GTM-looparna (vecka, månad, kvartal)</li>
+      <li>Håller sälj, marknad och ledning synkade kring samma sanning</li>
+      <li>Igång inom 2–4 veckor från start</li>
+      <li>Fokuserad exekvering mot era mål – inte magkänsla</li>
+    </ul>
+    <a href="https://businessreflex.se/growth-operating-system/" class="btn" target="_blank">Läs mer om GOS</a>
+  </div>
+
+  <h2>Strategin är inte problemet. Genomförandet är det.</h2>
+  <p>Go-to-market Operating System (GOS) är den tredje vägen: varken en anställning eller ett byråuppdrag, utan en operativ modell som håller GTM kopplat till era mål, vecka för vecka.</p>
+
+  <h2>Tre loopar håller det ni gör kopplat till er strategi</h2>
+  <p><strong>GTM-puls – varje vecka</strong><br>
+  Justerar det som redan är igång, utifrån färska siffror i stället för känslan i stunden. Igång inom 2–4 veckor från start.</p>
+  <p><strong>GTM-kalibrering – varje månad</strong><br>
+  Omvärldsanalys som uppdaterar ICP, personas och erbjudande. Sälj, marknad och produkt synkar kring samma sanning.</p>
+  <p><strong>GTM-strategi – varje kvartal</strong><br>
+  Ledningen går igenom mål och strategin ur två perspektiv: resultat i ekonomiska termer och process excellence.</p>
+
+  <h2>Track record</h2>
+  <div class="track">
+    <div class="stat"><strong>114</strong>bolag hjälpta sedan 2013</div>
+    <div class="stat"><strong>250+</strong>avsnitt av Sälj- och marknadspodden</div>
+    <div class="stat"><strong>350 000+</strong>lyssningar</div>
+  </div>
+
+  <h2>Vad du märker</h2>
+  <p><strong>Fas 1 — Månad 1–2:</strong> Du vet äntligen vad som gäller. Du kan förklara för styrelsen exakt vem ni säljer till och varför de köper.</p>
+  <p><strong>Fas 2 — Månad 2–6:</strong> Du slutar vara brandkåren. Pipeline fylls och säljteamet börjar leverera utan att du behöver gå in.</p>
+  <p><strong>Fas 3 — Månad 6+:</strong> Du leder. Bolaget rullar. Du kan ta semester utan att pipeline stannar.</p>
+
+  <p style="margin-top: 40px;">
+    <a href="https://businessreflex.se/kontakta-oss/" class="btn">Boka möte</a>
+  </p>
+
+  <div class="hero-highlight" style="padding: 32px 36px; margin-top: 40px;">
+    <strong style="font-size: 1.8em;">Jag tror att även detta skulle intressera dig</strong>
+  </div>
+
+  <div class="module">
+    <p style="color: #f4c97f; font-weight: 700; letter-spacing: 0.05em; margin: 0 0 8px; font-size: 0.9em;">HUBSPOT</p>
+    <h3 style="margin: 0 0 12px; color: #04284d; font-size: 1.5em;">Vad gör en HubSpot-byrå – och varför behöver ditt företag en?</h3>
+    <p>Många företag som vill växa digitalt stöter förr eller senare på HubSpot. Plattformen är ett av världens mest använda verktyg för inbound marketing, säljstöd och kundhantering. Men för att verkligen lyckas krävs mer än bara att köpa licensen.</p>
+    <p>En HubSpot-byrå hjälper med strategi, implementation, marketing automation, content och utbildning – så att plattformen blir en motor för tillväxt.</p>
+    <a href="https://businessreflex.se/digital-marknadsforing/vad-gor-en-hubspot-byra-och-varfor-behover-ditt-foretag-en/" class="btn" target="_blank">Läs hela artikeln</a>
+  </div>
+
+  <h2>Kunskaper och sånt</h2>
+  <div class="module">
+    <p>På Business Reflex delar vi löpande kunskap om go-to-market, sälj och marknad.</p>
+    <ul>
+      <li><strong>Sälj- och marknadspodden</strong> – över 250 avsnitt med praktiska insikter</li>
+      <li><strong>Guider och artiklar</strong> – om GTM, ICP, säljprocesser och mer</li>
+      <li>Lyssningar: 350 000+</li>
+    </ul>
+    <a href="https://businessreflex.se/las-lyssna/" class="btn" target="_blank">Utforska kunskap</a>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <strong>Business Reflex</strong><br>
+      Go to market operating system
+    </div>
+    <div>
+      <a href="https://businessreflex.se/kontakta-oss/">Kontakta oss</a><br>
+      <a href="tel:+4687032540">08-703 25 40</a><br>
+      <a href="https://www.linkedin.com/company/business-reflex-ab/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© Business Reflex · Personlig sida för Anders</div>
+</footer>
+
+</body>
+</html>
